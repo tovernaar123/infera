@@ -1,0 +1,9 @@
+{
+  "damge": 2,
+  "spaw_effect": "sharp_teeth",
+  "health": 10,
+  "name": "teethy",
+  "att_cost": 1,
+  "max_mana": 10,
+  "rarity": 1
+}
