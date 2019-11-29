@@ -7,6 +7,7 @@ int health;
 int damage;
 int cost;
 int maxma;
+int mana;
 final int rarity; //common
 abily abilities[]  = new abily[1];
 effect current_effects[] = new effect[1];
@@ -44,4 +45,16 @@ text(health,x+w/2-200/2,y+h/2-200/2);
 text(damage,x+w/2+200/2-textWidth(str(damage)),y+h/2-200/2);   
   
 }
+void update() {
+  if(mana < maxma) {
+   mana += 1;  
+  }
+}
+boolean killed() {
+
+return health <= 0 ;
+
+  
+}
+
 }
